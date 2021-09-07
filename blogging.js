@@ -21,11 +21,6 @@ $('#bg').hide();
 });
 }
 
-$('.post-btn').click(
-function() {
-$('#submit-chat').click();
-});
-
 $(document).on('input', '.auto', function () {
 $(this).outerHeight(20).outerHeight(this.scrollHeight)
 }); 
